@@ -1,44 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Cybersecurity Awareness Survey</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cybersecurity Awareness</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #2c3e50, #3498db);
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #1a1a1a;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 30px;
+            color: #f1c40f;
+        }
+
+        .container {
+            padding: 40px;
+            max-width: 800px;
+            margin: auto;
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+            margin-top: 30px;
+        }
+
+        h2 {
+            color: #f1c40f;
+        }
+
+        ul {
+            list-style-type: square;
+            margin-left: 20px;
+        }
+
+        .survey-button {
+            display: block;
+            width: fit-content;
+            padding: 12px 25px;
+            background-color: #e67e22;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            margin: 20px 0;
+            transition: background-color 0.3s;
+        }
+
+        .survey-button:hover {
+            background-color: #d35400;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+            background-color: #1a1a1a;
+            font-size: 14px;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px;
+            }
+
+            header h1 {
+                font-size: 24px;
+            }
+        }
+    </style>
 </head>
 <body>
-  <header>
-    <h1>Cybersecurity Awareness</h1>
-    <p>Help us understand how aware students are about cyber threats.</p>
-  </header>
+    <header>
+        <h1>Cybersecurity Awareness</h1>
+    </header>
 
-  <main>
-    <section>
-      <h2>About the Survey</h2>
-      <p>This survey is part of a SYCS Field Project. It covers password safety, phishing, and online habits.</p>
-      <a href="https://docs.google.com/forms/d/e/1FAIpQLSe3WI2i0-IhtJrHHumi_hQqNi5rCx5pM3oCse9pPfhdmaWpow/viewform" target="_blank" class="btn">Take the Survey</a>
-    </section>
+    <div class="container">
+        <h2>About the Survey</h2>
+        <p>This survey is part of a SYCS Field Project. It covers password safety, phishing, and online habits.</p>
 
-    <section>
-      <h2>Why Cybersecurity Matters</h2>
-      <ul>
-        <li>Protects your data and identity</li>
-        <li>Prevents online fraud and scams</li>
-        <li>Increases your digital safety and awareness</li>
-      </ul>
-    </section>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSe3WI2i0-IhtJrHHumi_hQqNi5rCx5pM3oCse9pPfhdmaWpow/viewform?usp=sharing&ouid=101033436803772007145" 
+           class="survey-button" 
+           target="_blank">
+           Take the Survey
+        </a>
 
-    <section>
-      <h2>Useful Tips</h2>
-      <ol>
-        <li>Use strong, unique passwords</li>
-        <li>Enable two-factor authentication (2FA)</li>
-        <li>Never click unknown links</li>
-      </ol>
-    </section>
-  </main>
+        <h2>Why Cybersecurity Matters</h2>
+        <ul>
+            <li>Protects your data and identity</li>
+            <li>Prevents online fraud and scams</li>
+            <li>Increases your digital safety and awareness</li>
+        </ul>
 
-  <footer>
-    <p>Created by Zaid Ansari | SY BSc CS | 2025</p>
-  </footer>
+        <h2>Useful Tips</h2>
+        <ul>
+            <li>Use strong, unique passwords</li>
+            <li>Enable two-factor authentication (2FA)</li>
+            <li>Never click unknown links</li>
+        </ul>
+    </div>
+
+    <footer>
+        Created by Zaid Ansari | SY BSc CS | 2025
+    </footer>
 </body>
 </html>
